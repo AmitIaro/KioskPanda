@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <iframe src="https://form.jotform.com/251905436832156" style="border:none;"></iframe>
+
+  <script>
+    setInterval(() => {
+      // Replace 'thank-you' with the string that appears in the form’s URL after submission
+      if (window.location.href.includes("thank-you")) {
+        window.location.href = "index.html"; // Go back to launcher
+      }
+    }, 3000);
+  </script>
+</body>
+</html>
